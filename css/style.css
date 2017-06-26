@@ -251,10 +251,9 @@ input[type="checkbox"] {
 @media (min-width: 1300px) {
   .approaches .approaches-align-block {
     position: relative;
-    margin: 140px 0 155px;
+    margin: 160px 0 140px;
     left: 100px; }
     .approaches .approaches-align-block:last-child {
-      top: 20px;
       left: -100px; } }
 
 @media (max-width: 600px) {
