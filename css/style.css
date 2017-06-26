@@ -250,11 +250,12 @@ input[type="checkbox"] {
 
 @media (min-width: 1300px) {
   .approaches .approaches-align-block {
-    position: relative; }
-    .approaches .approaches-align-block:first-child {
-      margin: 120px 0 150px; }
+    position: relative;
+    margin: 130px 0 150px;
+    left: 100px; }
     .approaches .approaches-align-block:last-child {
-      margin: 30px 0 150px; } }
+      top: 20px;
+      left: -100px; } }
 
 @media (max-width: 600px) {
   .approaches .approaches-align-block {
@@ -263,6 +264,14 @@ input[type="checkbox"] {
       margin: 0 -.85227rem -30px;
       padding: 0 .85227rem 30px;
       background-color: #015763; } }
+
+@media (min-width: 1300px) {
+  .approaches .approaches-align-block:last-child span:nth-child(2) {
+    left: calc(50% + 167px/2 + 60px); }
+    .approaches .approaches-align-block:last-child span:nth-child(2):before {
+      left: -57px; }
+    .approaches .approaches-align-block:last-child span:nth-child(2):after {
+      left: -27px; } }
 
 .approaches h3 {
   max-width: 167px;
@@ -348,7 +357,8 @@ input[type="checkbox"] {
           border-radius: initial;
           border: none;
           position: absolute;
-          top: 64px;
+          bottom: -44px;
+          top: auto;
           left: 30px; }
         .approaches span:nth-child(1):after {
           content: '';
@@ -359,7 +369,8 @@ input[type="checkbox"] {
           border-radius: 50%;
           border: none;
           position: absolute;
-          top: 55px;
+          bottom: -15px;
+          top: auto;
           left: 25.5px; }
       .approaches span:nth-child(3) {
         top: 130%;
