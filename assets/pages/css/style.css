@@ -1046,3 +1046,6 @@ input[type="checkbox"] {
       text-align: center;
       font-size: 1.6rem;
       line-height: 1.2; }
+      @media (min-width: 1160px) {
+        .video_block-about ._containerflex-2 h2 {
+          height: 70px; } }
