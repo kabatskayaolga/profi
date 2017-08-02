@@ -813,6 +813,8 @@ input[type="checkbox"] {
         .map .fluid-2 div {
           max-width: initial;
           width: 150; } }
+  .map img {
+    width: 150px; }
 
 .service {
   position: relative;
