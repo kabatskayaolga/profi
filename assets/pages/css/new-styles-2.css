@@ -1,0 +1,16 @@
+.slick-slider {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 415px){
+.header_content.header_content-about {
+    padding-bottom: 235px;
+    
+}}
+@media (max-width: 980px){
+.header_content.header_content-about {
+    background-position: 53% bottom;
+    background-size: cover;
+    background-color: #dfdbdc;
+    padding-bottom: 30px;
+}}
