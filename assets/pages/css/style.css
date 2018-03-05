@@ -12,27 +12,17 @@ section.main {
 html, body {
   padding: 0;
   margin: 0;
+  font-size: 110%;
   font-family: "PT Sans Narrow",sans-serif;
   overflow-x: hidden; }
 
 ._container {
   padding-left: .85227rem;
   padding-right: .85227rem;
-  max-width: 68.18182rem;
-  margin: auto;
+  max-width: 100%;
+  margin: 0 15px;
   padding-top: 30px;
   padding-bottom: 30px; }
-  ._container.slick-slide {
-    max-width: initial; }
-    @media (min-width: 1200px) {
-      ._container.slick-slide {
-        padding-left: 5.85227rem;
-        padding-right: 5.85227rem; } }
-    @media (min-width: 1600px) {
-      ._container.slick-slide {
-        padding-left: 15.90909rem;
-        padding-right: 15.90909rem;
-        max-width: initial; } }
 
 ._containerflex-2 {
   display: inline !important;
@@ -70,6 +60,8 @@ html, body {
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px; }
+._container_small h2 {
+    padding: 0 30px 0 30px; }
   @media (min-width: 760px) {
     ._container_small.header_container {
       padding-top: 80px;
@@ -140,7 +132,8 @@ h6 {
   max-width: 100%;
   word-wrap: break-word; }
   .button:hover {
-    background-color: #fff399; }
+    background-color: #fff399;
+    color: #01414a;  }
 
 input:not([type="checkbox"]) {
   -webkit-appearance: none; }
@@ -224,8 +217,8 @@ input[type="checkbox"] {
     width: 100%; }
     @media (min-width: 760px) {
       .header_content .header_content_text {
-        width: 50%;
-        min-width: 600px; } }
+        width: 40%;
+        min-width: 550px; } }
   .header_content ul {
     padding-left: 20px; }
     .header_content ul li {
@@ -544,6 +537,10 @@ input[type="checkbox"] {
   .presentation_block.no-bottom,
   .video_block.no-bottom {
     padding-bottom: 0; }
+@media (max-width: 768px) {
+  .presentation_block {
+    display: none} }
+
 
 @media (min-width: 600px) {
   .standarts img {
@@ -740,6 +737,7 @@ input[type="checkbox"] {
   padding: 20px; }
 
 .price_block input[type="number"] {
+  display: inline-block;
   outline: none;
   padding: 5px;
   border: none;
@@ -1061,3 +1059,52 @@ input[type="checkbox"] {
       @media (min-width: 1160px) {
         .video_block-about ._containerflex-2 h2 {
           height: 70px; } }
+
+.seminar .seminar-title {
+  text-align: left;
+}
+
+.aboutUs {
+  margin-top: 20px;
+}
+
+.aboutUs h5 {
+  font-weight: 500;
+}
+
+.aboutUs p {
+  font-size: 0.9em;
+}
+
+.ico-left {
+  font-family: 'icomoon';
+  color: #32cde1;
+  font-style: normal;
+  font-size: 2em;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.icon-speech-bubble:before {
+  content: "\e92c"; }
+
+.icon-test:before {
+  content: "\e92d"; }
+
+.icon-slider:before {
+  content: "\e92b"; }
+
+.icon-customer-service:before {
+  content: "\e929"; }
+
+.icon-video-player:before {
+  content: "\e92e"; }
+
+.icon-library:before {
+  content: "\e92a"; }
+
+.icon-chat:before {
+  content: "\e927"; }
+
+.icon-clipboard:before {
+  content: "\e928"; }
