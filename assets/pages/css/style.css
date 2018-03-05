@@ -12,7 +12,6 @@ section.main {
 html, body {
   padding: 0;
   margin: 0;
-  font-size: 110%;
   font-family: "PT Sans Narrow",sans-serif;
   overflow-x: hidden; }
 
@@ -23,6 +22,17 @@ html, body {
   margin: auto;
   padding-top: 30px;
   padding-bottom: 30px; }
+  ._container.slick-slide {
+    max-width: initial; }
+    @media (min-width: 1200px) {
+      ._container.slick-slide {
+        padding-left: 5.85227rem;
+        padding-right: 5.85227rem; } }
+    @media (min-width: 1600px) {
+      ._container.slick-slide {
+        padding-left: 15.90909rem;
+        padding-right: 15.90909rem;
+        max-width: initial; } }
 
 ._containerflex-2 {
   display: inline !important;
