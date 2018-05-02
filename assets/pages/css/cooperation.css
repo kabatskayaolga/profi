@@ -6,8 +6,13 @@
 .header_content.header_content-cooperation {
     background-image: url(../images/semi.jpg);
     background-color: #ffffff;
-}
+    background-position: bottom center;
 
+}
+@media (min-width: 1024px){
+    .header_content.header_content-cooperation {
+        padding-bottom: 150px;
+}
 
 @media (min-width: 760px){
     .header_content.header_content-cooperation .header_content_text {
