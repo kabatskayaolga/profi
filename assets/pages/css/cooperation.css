@@ -1,0 +1,86 @@
+@import 'https://seminarna.ru/assets/css/main.css?v=20180424';
+@import 'https://seminarna.ru/assets/pages/css/style.css?v=20170305';
+@import 'https://seminarna.ru/assets/pages/css/new-style.css?v=20170828';
+@import 'https://seminarna.ru/assets/pages/css/new-styles-2.css?v=20170807';
+
+.header_content.header_content-cooperation {
+    background-image: url(../images/semi.jpg);
+    background-color: #ffffff;
+}
+
+
+@media (min-width: 760px){
+    .header_content.header_content-cooperation .header_content_text {
+        width: 100%;
+        /* min-width: 550px; */
+    }
+  
+}
+.organization{
+    text-align: center;
+}
+
+@media (min-width: 600px){
+    .organization ._containerflex-2{
+        flex-wrap: wrap;
+    }
+    .organization ._containerflex-2 > div{
+        flex-basis: 33%;
+    }
+   
+}
+
+@media (min-width: 1024px){
+    .organization ._containerflex-2 > div{
+        flex: 1;
+    }
+    .organization ._containerflex-2 .img_wrap{
+        height: 70px;
+    }
+}
+
+.service-cooperation .hidden-span-wrapper{
+    margin: 0 -3px;
+    position: relative;
+    vertical-align: bottom;
+}
+.service-cooperation .hidden-span-wrapper .hidden-image-wrap{
+    padding: 5px 3px;
+    display: inline-block;
+    position: relative;
+}
+.service-cooperation .hidden-span-wrapper .hidden-image-wrap:hover{
+    background: #d4d4d4;
+    border-radius: 10px;
+}
+.service-cooperation .hidden-span-wrapper .hidden-image-wrap:hover:after{
+    background: url('../images/ico/arrow-up.png');
+    width: 16px;
+    height: 16px;
+    display: block;
+    position: absolute;
+    content: '';
+    left: 50%;
+    transform: translateX(-50%);
+}
+.service-cooperation .hidden-span-wrapper .hidden-image-wrap+ span{
+    /* transition: 0.2s; */
+    opacity: 0;
+    display: block!important;
+    position: absolute;
+    background: #01414a;
+    color: white;
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 2px solid black;
+}
+.service-cooperation .hidden-span-wrapper .hidden-image-wrap:hover + span{
+    display: block!important;
+    opacity: 1;
+    
+}
