@@ -11,7 +11,7 @@
 }
 @media (min-width: 1024px){
     .header_content.header_content-cooperation {
-        padding-bottom: 150px;
+        padding-bottom: 50px;
 }
 }
 
@@ -88,4 +88,9 @@
     .organization ._containerflex-2 .img_wrap{
         height: 70px;
     }
+}
+.photo_slider #photo_slider2.slider_upper_block img {
+    width: auto;
+    padding: 0 15px;
+    max-height: 300px;
 }
